@@ -4,6 +4,7 @@
 Project uses ruby 2.3.0 and rails 5 (currently in beta)
 
 Setup: 
+
 1. Install rvm
 2. Create `.ruby-gemset` file with gemset name of you choice
 3. run `bundle install` to get all dependencies
