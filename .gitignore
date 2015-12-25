@@ -18,3 +18,5 @@
 
 # Ignore ruby gemset name, keep ruby version
 .ruby-gemset
+
+/config/database.yml
