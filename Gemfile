@@ -10,22 +10,13 @@ gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+# form objects
+gem 'virtus', '~> 1.0.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec_api_documentation'
-end
-
-group :test do
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'faker'
