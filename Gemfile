@@ -5,11 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '>= 5.0.0.beta1', '< 5.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-# gem 'jbuilder', '~> 2.0'
 # Use Puma as the app server
 gem 'puma'
 
+gem 'active_model_serializers', '~> 0.9.3'
 # form objects
 gem 'virtus', '~> 1.0.5'
 
