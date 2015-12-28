@@ -6,5 +6,6 @@ class Api::V1::LinesController < ApplicationController
 
   def show
     line = Line.find(params[:id])
+    render json: line, serializer: LineSerializer
   end
 end
