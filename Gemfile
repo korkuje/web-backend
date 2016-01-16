@@ -19,6 +19,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'faker'
+  gem 'pry-rails'
+  gem 'awesome_print'
   gem 'factory_girl_rails'
 end
 
