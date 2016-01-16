@@ -8,7 +8,7 @@ resource 'Problems create' do
 
   example 'should create problem when all params are present and return serialized problem' do
     post "/api/v1/lines/#{line_id}/problems", params: problem_attributes.merge(phone_uuid: user.phone_uuid)
-
+    binding.pry
     resp = JSON.parse(response.body)
 
     expect(response.status).to eq(200)

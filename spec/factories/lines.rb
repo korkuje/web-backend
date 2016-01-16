@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :line do
-    name "MyString"
+    sequence(:name) { |n| n.to_s }
   end
 end
