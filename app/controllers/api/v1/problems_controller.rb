@@ -1,4 +1,9 @@
 class Api::V1::ProblemsController < ApplicationController
+  def all_problems
+    problems = Problem.all
+    render json: problems, each_serializer: ProblemSerializer
+  end
+
   def show
     line = Line.find(params[:line_id])
     problem = line.problems.find(params[:id])
